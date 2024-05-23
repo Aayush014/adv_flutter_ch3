@@ -56,7 +56,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 1. *Clone the repository:*
 
     ```bash
-    git clone https://github.com/Aayush014/contact_us_page.git
+    git clone https://github.com/Aayush014/adv_flutter_ch3.git
     ```
 
 2. *Install dependencies:*
