@@ -11,7 +11,7 @@ class NoInternetApp extends StatelessWidget {
       body: StreamBuilder(
         stream: Connectivity().onConnectivityChanged,
         builder: (context, snapshot) {
-          if (snapshot.data!.contains(ConnectivityResult.mobile)){
+          if (snapshot.data!.contains(ConnectivityResult.mobile)||snapshot.data!.contains(ConnectivityResult.wifi)){
             return Container(
               height: double.infinity,
               width: double.infinity,
