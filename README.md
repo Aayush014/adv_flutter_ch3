@@ -75,6 +75,32 @@ Follow these instructions to get a copy of the project up and running on your lo
 Once the application is running, it will automatically detect your network status. Here's a step-by-step guide on how to use the app.
 
 ## Code Overview
+```dart
+StreamBuilder(
+      stream: Connectivity().onConnectivityChanged,
+      builder: (context, snapshot) {
+        if (snapshot.data!.contains(ConnectivityResult.mobile)) {
+          return Center(child: Text('Mobile is connected to Mobile Data'));
+        } else if (snapshot.data!.contains(ConnectivityResult.wifi)) {
+          return Center(child: Text('Mobile is connected to Wifi'));
+        } else {
+          return Center(
+            child: Container(
+              height: 350,
+              width: 450,
+              decoration: const BoxDecoration(
+                color: Colors.red,
+                image: DecorationImage(
+                  fit: BoxFit.cover,
+                  image: AssetImage('assets/gifs/giphy.gif'),
+                ),
+              ),
+            ),
+          );
+        }
+      },
+    );
+```
 ### Technologies Used
 - *Flutter*: For building the cross-platform mobile application.
 - *Dart*: The programming language used by Flutter.
