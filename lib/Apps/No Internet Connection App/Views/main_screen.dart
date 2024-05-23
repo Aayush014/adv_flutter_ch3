@@ -12,7 +12,8 @@ class NoInternetApp extends StatelessWidget {
         stream: Connectivity().onConnectivityChanged,
         builder: (context, snapshot) {
           if (snapshot.data!.contains(ConnectivityResult.mobile)||snapshot.data!.contains(ConnectivityResult.wifi)){
-            return Container(
+            return AnimatedContainer(
+              duration: Duration(milliseconds: 800),
               height: double.infinity,
               width: double.infinity,
               color: const Color(0xff34C759),
@@ -37,7 +38,8 @@ class NoInternetApp extends StatelessWidget {
                       ),
                       child: Column(
                         children: [
-                          SizedBox(
+                          AnimatedContainer(
+                            duration: Duration(milliseconds: 800),
                             height: 220,
                             // width: 350,
                             child: Image.asset("Assets/network/online.png"),
@@ -79,7 +81,8 @@ class NoInternetApp extends StatelessWidget {
             );
           }
           else {
-            return Container(
+            return AnimatedContainer(
+              duration: Duration(milliseconds: 800),
               height: double.infinity,
               width: double.infinity,
               color: Colors.white,
@@ -104,7 +107,8 @@ class NoInternetApp extends StatelessWidget {
                       ),
                       child: Column(
                         children: [
-                          SizedBox(
+                          AnimatedContainer(
+                            duration: Duration(milliseconds: 800),
                             height: 220,
                             // width: 350,
                             child: Image.asset("Assets/network/offline.jpg"),
