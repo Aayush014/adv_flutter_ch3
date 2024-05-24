@@ -143,3 +143,79 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ### Contact
 My Mail - aayushpatel01411@gmail.com
 </details>
+<details>
+  <summary><h2>🔍In-App Browser Flutter App</h2></summary>
+
+A single-page Flutter application that displays an in-app browser using the `flutter_inappwebview` package. This app is designed to provide a seamless web browsing experience within a Flutter application.
+
+## Features
+
+- **In-App Browser:** Embed a fully functional web browser within your Flutter app.
+- **Smooth Performance:** Optimized for smooth browsing experience.
+- **Cross-Platform:** Works on both Android and iOS.
+- **Customizable:** Easily customizable to fit your app's design and functionality needs.
+
+## Screenshots
+
+![Screenshot 1](screenshots/screenshot1.png)
+![Screenshot 2](screenshots/screenshot2.png)
+
+## Getting Started
+
+### Prerequisites
+
+- Flutter SDK: [Install Flutter](https://flutter.dev/docs/get-started/install)
+- Dart: [Install Dart](https://dart.dev/get-dart)
+
+### Installation
+
+1. *Clone the repository:*
+
+    ```bash
+    git clone https://github.com/Aayush014/adv_flutter_ch3.git
+    ```
+
+2. *Install dependencies:*
+
+    ```bash
+    flutter pub get
+    ```
+
+3. *Run the app:*
+
+    ```bash
+    flutter run
+    ```
+## Code Example
+```dart
+InAppWebView(
+        initialUrlRequest: URLRequest(url: Uri.parse("https://www.google.com")),
+        onWebViewCreated: (controller) {
+          webViewController = controller;
+        },
+      ),
+    );
+```
+
+## Contributing
+
+If you would like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature/YourFeature).
+3. Commit your changes (git commit -am 'Add some feature').
+4. Push to the branch (git push origin feature/YourFeature).
+5. Create a new Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+If you have any questions or suggestions, feel free to open an issue or contact me at [aayushpatel01411@gmail.com].
+
+---
+
+Happy coding!
+</details>
