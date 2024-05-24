@@ -157,8 +157,27 @@ A single-page Flutter application that displays an in-app browser using the `flu
 
 ## Screenshots
 
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
+<details> 
+  <summary><h2>📸Photos</h2></summary>
+  <p>
+    <table align="center">
+  <tr>
+    <td><img src="https://github.com/Aayush014/adv_flutter_ch3/assets/133498952/dcbbc047-8665-4a9d-b77c-65278d5a2436" alt="Image 2" width="180" height="auto"></td>
+    <td><img src="https://github.com/Aayush014/adv_flutter_ch3/assets/133498952/220e007d-e3ef-4374-9284-07c8ed68504e" alt="Image 2" width="180" height="auto"></td>
+  </tr>
+    </table>    
+  </p>
+  </details>
+  <details> 
+  <summary><h2>📽️Video</h2></summary>
+  <p>
+    <table align="center">
+  <tr>
+    <video src ="https://github.com/Aayush014/adv_flutter_ch3/assets/133498952/c135fac2-cbcf-4b12-8c75-cfb299e28fb0"></video> </h1>
+  </tr>
+    </table>   
+  </p>
+  </details>
 
 ## Getting Started
 
